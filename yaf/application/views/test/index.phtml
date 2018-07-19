@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <?php echo $data1; ?>
+    <?= $data1 ?>
+    <?php echo $data2['name']; ?>
+    <?php foreach($data3 as $tmp): ?>
+        <?=$tmp['name']?> 
+        <?=$tmp['age']?>
+        <?=$tmp['sex']?>
+    <?php endforeach; ?>
+</body>
+</html>
